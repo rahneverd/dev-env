@@ -1,0 +1,173 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  // from editorconfig
+  "files.encoding": "utf8",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[typescript]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "prettier.singleQuote": true
+  },
+  "[javascript]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "prettier.singleQuote": true
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.trimAutoWhitespace": false
+  },
+
+  //
+  // "editor.wordWrap": "on",
+  // "prettier.formatOnSave": true,
+  "prettier.endOfLine": "auto",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //"editor.wordWrap": "wordWrapColumn",
+  "prettier.useTabs": true,
+  "prettier.printWidth": 10,
+  "editor.mouseWheelZoom": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.suggest.autoImports": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.sortImports": "explicit"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  // "editor.tabSize": 2,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "editor.linkedEditing": true,
+  "tabnine.experimentalAutoImports": true,
+  "explorer.confirmDelete": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.useInlineCompletions": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": null,
+      "savePathReplacementPairs": null
+    }
+    // // Custom setting as per the youtube course
+
+    // {
+    // 	"format": "compressed",
+    // 	"extensionName": ".min.css",
+    // 	"savePath": null
+    // }
+  ],
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "bash (2)": {
+      "path": "/usr/bin/bash"
+    },
+    "sh": {
+      "path": "/bin/sh"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "",
+  "angular-schule.configUpdated": "0.5.0",
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.extensionOnImport": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracket-pair-colorizer-2.colorMode": "Independent",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Cygwin": {
+      "path": "C:\\cygwin64\\bin\\zsh.exe",
+      "args": ["--login"],
+      "env": { "CHERE_INVOKING": "1" }
+    }
+  },
+  // "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "remote.WSL.debug": true,
+  "remote.WSL.fileWatcher.polling": true,
+  "remote.WSL2.connectionMethod": "localhost",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.allowMnemonics": true,
+  "prettier.requireConfig": true,
+  "editor.fontLigatures": false,
+  "git.confirmSync": false,
+  "terminal.explorerKind": "both",
+  "refactai.addressURL": "Refact",
+  "refactai.apiKey": "dHzv81oqzOsgz2aRBeVi5bkI",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "window.customTitleBarVisibility": "auto",
+  "window.titleBarStyle": "custom",
+  "git.autofetch": true,
+  "files.autoSave": "onFocusChange",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+  "window.menuBarVisibility": "visible",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.insertSpaces": false,
+  "prettier.proseWrap": "always",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true
+  // "[javascript]": {
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnSave": true,
+  // },
+  // "[typescript]": {
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnSave": true,
+  // },
+}
+
+// {
+// 	"security.workspace.trust.untrustedFiles": "open",
+// 	"terminal.integrated.allowMnemonics": true,
+// 	"terminal.integrated.profiles.windows": {
+// 			"Cygwin": {
+// 				"path": "C:\\cygwin64\\bin\\zsh.exe",
+// 				"args": ["--login"],
+// 				"env": {"CHERE_INVOKING": "1"}
+// 			}
+// 	},
+// 	"terminal.integrated.defaultProfile.windows": "Cygwin"
+// }
