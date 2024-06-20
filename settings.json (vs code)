@@ -1,0 +1,27 @@
+{
+  // all time fav - start
+  "files.encoding": "utf8",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.endOfLine": "lf",
+  "prettier.trailingComma": "none",
+  "prettier.printWidth": 80,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.htmlWrapAttributes": "force",
+  "prettier.htmlVoidTags": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "tabnine.experimentalAutoImports": true,
+  // all time fav - end
+
+  // fonts for terminal
+  "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace"
+}
